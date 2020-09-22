@@ -22,8 +22,9 @@ if __name__ == '__main__':
     user_list = [] # start with an empty list
     # Write a loop to allow the user to input the values to be averaged
     number2=input("Enter a number")
-    user_list.append(number2)
+    
     while number2 != ("done"):
+        user_list.append(float(number2))
         number2=input("enter a number")
     print (avg(user_list))
     
